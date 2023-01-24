@@ -251,21 +251,10 @@ the dataset of Sign up 'Turkey Ankara Ayranci Anadolu High School's Sign Languag
 
 </div>
 
-<div class="output stream stdout">
 
+<div class="output stream stdout">
+    
     Epoch 1/150
-
-</div>
-
-<div class="output stream stderr">
-
-    <ipython-input-11-3207a940108a>:16: DeprecationWarning: KerasClassifier is deprecated, use Sci-Keras (https://github.com/adriangb/scikeras) instead. See https://www.adriangb.com/scikeras/stable/migration.html for help migrating.
-      classifier = KerasClassifier(build_fn = build_FFNN, epochs = 150,batch_size=64)
-
-</div>
-
-<div class="output stream stdout">
-
     18/18 [==============================] - 1s 10ms/step - loss: 2.6540 - accuracy: 0.0965 - f1_m: 0.0000e+00 - precision_m: 0.0000e+00 - recall_m: 0.0000e+00
     Epoch 2/150
     18/18 [==============================] - 0s 10ms/step - loss: 2.4476 - accuracy: 0.1256 - f1_m: 0.0016 - precision_m: 0.0139 - recall_m: 8.6806e-04
@@ -422,21 +411,10 @@ the dataset of Sign up 'Turkey Ankara Ayranci Anadolu High School's Sign Languag
 
 </div>
 
-<div class="output stream stdout">
-
-    Epoch 1/150
-
-</div>
-
-<div class="output stream stderr">
-
-    <ipython-input-13-a769a75837bd>:12: DeprecationWarning: KerasClassifier is deprecated, use Sci-Keras (https://github.com/adriangb/scikeras) instead. See https://www.adriangb.com/scikeras/stable/migration.html for help migrating.
-      classifier = KerasClassifier(build_fn = build_LSTM, epochs = 150,batch_size=64)
-
-</div>
 
 <div class="output stream stdout">
     
+    Epoch 1/150
     18/18 [==============================] - 3s 13ms/step - loss: 2.3010 - accuracy: 0.1101 - f1_m: 0.1873 - precision_m: 0.1117 - recall_m: 0.5850
     Epoch 2/150
     18/18 [==============================] - 0s 10ms/step - loss: 2.1983 - accuracy: 0.1620 - f1_m: 0.2156 - precision_m: 0.1260 - recall_m: 0.7581
@@ -606,12 +584,6 @@ the dataset of Sign up 'Turkey Ankara Ayranci Anadolu High School's Sign Languag
 
 </div>
 
-<div class="output stream stderr">
-
-    <ipython-input-23-b7438b769e18>:26: DeprecationWarning: KerasClassifier is deprecated, use Sci-Keras (https://github.com/adriangb/scikeras) instead. See https://www.adriangb.com/scikeras/stable/migration.html for help migrating.
-      classifier = KerasClassifier(build_fn = build_CNN, epochs = 50,batch_size=64)
-
-</div>
 
 <div class="output stream stdout">
 
@@ -931,19 +903,6 @@ the dataset of Sign up 'Turkey Ankara Ayranci Anadolu High School's Sign Languag
 
 </div>
 
-<div class="output stream stdout">
-
-    Training Accuaracy: 100.0%
-
-    Testing Accuaracy: 90.0%
-
-    Precision: 0.8571428571428571
-
-    Recall: 0.8595429845379904
-
-    F1 score: 0.8568435049952878
-
-</div>
 
 <div class="output execute_result" data-execution_count="30">
 
