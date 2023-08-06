@@ -36,7 +36,6 @@ The CNN model achieves the highest accuracy among the four methods, followed by 
 
 This project demonstrates that sign language detection can be achieved using different neural network architectures and SVM. The CNN model outperforms the other methods in terms of accuracy, suggesting that convolutional layers are effective for extracting features from image data. However, there is still room for improvement by using more data, augmenting data, tuning hyperparameters, or using more advanced models.
 
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
