@@ -23,12 +23,31 @@ The project explores four different methods for sign language detection:
 
 The performance of each method is evaluated using accuracy and confusion matrix on the test set. The results are summarized in the table below:
 
-| Method | Accuracy |
-|--------|----------|
-| FFNN   | 85.2%    |
-| LSTM   | 91.5%    |
-| CNN    | 97.3%    |
-| SVM    | 90.0%    |
+<div align="center">
+  
+<table  style=" width: 100%;">
+  <tr>
+    <th>Method</th>
+    <th>Accuracy</th>
+  </tr>
+  <tr>
+    <td>FFNN</td>
+    <td>85.2%</td>
+  </tr>
+  <tr>
+    <td>LSTM</td>
+    <td>91.5%</td>
+  </tr>
+  <tr>
+    <td>CNN</td>
+    <td>97.3%</td>
+  </tr>
+  <tr>
+    <td>SVM</td>
+    <td>90.0%</td>
+  </tr>
+  </table>
+</div>
 
 The CNN model achieves the highest accuracy among the four methods, followed by the LSTM model. The FFNN and SVM models have lower accuracy, possibly due to overfitting or insufficient complexity.
 
@@ -36,6 +55,14 @@ The CNN model achieves the highest accuracy among the four methods, followed by 
 
 This project demonstrates that sign language detection can be achieved using different neural network architectures and SVM. The CNN model outperforms the other methods in terms of accuracy, suggesting that convolutional layers are effective for extracting features from image data. However, there is still room for improvement by using more data, augmenting data, tuning hyperparameters, or using more advanced models.
 
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request. Your contributions can help enhance the Accuracies of models.
+
+## Acknowledgment
+
+This Project is based on Machine Learning Course at Faculty of Computers and Artificial Intelligence Cairo University. We would like to thank Dr. Hanaa Bayomi Ali for his guidance and support throughout this course.
+
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE.md).
